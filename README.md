@@ -21,7 +21,7 @@ public class AppVwo {
 		Thread.sleep(10000);
 		driver.findElement(By.xpath("//input[@id='page-v1-fname']")).sendKeys("Mosharof");
 		driver.findElement(By.xpath("//input[@id='page-v1-lname']")).sendKeys("Hossain");
-		driver.findElement(By.xpath("//input[@id='page-v1-pnumber']")).sendKeys("560665201");
+		driver.findElement(By.xpath("//input[@id='page-v1-pnumber']")).sendKeys("000000");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='page-v1-pwd']")).sendKeys("Mosharof1@");
 		
